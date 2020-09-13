@@ -96,8 +96,6 @@
   user:
      name: "{{ ansible_user }}"
      group: docker
-  tags:
-    - docker
 
 - name: Docker SDK for Python
   pip:
@@ -108,5 +106,3 @@
     name: docker
     state: started
     enabled: yes
-  tags:
-    - docker

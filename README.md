@@ -1,4 +1,4 @@
-# ansible-role-install-docker-centos7
+# ansible-role-install-docker
 
 ### Required inventory:
 ```ansible
